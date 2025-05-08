@@ -95,3 +95,5 @@ const todoList = () => {
   let formattedItemsDueLater = todos.toDisplayableList(itemsDueLater)
   console.log(formattedItemsDueLater)
   console.log("\n\n")
+
+  module.exports = todoList;
